@@ -75,7 +75,7 @@ def load_device_metadata(release):
                           'RELEAS_VERSION': '16.04' },
         }"""
     devices_metadata = {}
-    with open(os.path.join(ROOT_DIR, DEVICES_MAPPING)) as f:
+    with open(os.path.join(ROOT_DIR, DEVICES_MAPPING), encoding='utf-8') as f:
         devices_metadata = yaml.load(f.read())
     for device_key in devices_metadata:
         devices_metadata[device_key]['RELEASE_VERSION'] = release
