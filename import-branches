@@ -23,6 +23,6 @@ examples/release/demos https://github.com/ubuntu-core/demos master .
 #examples/release/codelabs https://github.com/ubuntu-core/codelabs master .
 
 ## TOREMOVE: demo/test content with existing structure
-guides-and-reference/release/architecture https://github.com/ubuntu-core/snappy master docs
+guides-and-reference/release/architecture https://github.com/snapcore/snapd master docs
 guides-and-reference/release/build-apps https://github.com/ubuntu-core/snapcraft master docs
-examples/release/snapcraft-examples https://github.com/ubuntu-core/snapcraft master examples
+examples/release/snapcraft-examples https://github.com/ubuntu-core/snapcraft master demos
